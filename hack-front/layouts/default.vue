@@ -17,7 +17,7 @@
                   class="mt-2 mb-1"
                   style="background: transparent; border: 0px"
                 />
-                <button class="btn text-white">
+                <button class="btn text-white" @click="goto('/detail')">
                   <i class="bi bi-search"></i>
                 </button>
               </div>
@@ -41,6 +41,12 @@
     <slot />
   </div>
 </template>
+
+<script setup>
+function goto(path) {
+  window.location.replace(path);
+}
+</script>
 
 <style>
 input::placeholder {

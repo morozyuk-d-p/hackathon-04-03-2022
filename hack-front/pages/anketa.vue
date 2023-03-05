@@ -28,7 +28,7 @@
       />
     </div>
     <div class="m-2">
-      <label for="email" class="form-label">Телефон</label>
+      <label for="email" class="form-label">Email</label>
       <input
         type="email"
         id="email"
@@ -63,6 +63,26 @@
       <label for="cv" class="form-label">Ваше резюме</label>
       <input type="file" name="cv" id="cv" class="form-control" />
     </div>
+    <div class="m-2 mt-3">
+      <div class="row">
+        <div class="col-auto">
+          <label for="range">Желаемый период</label>
+        </div>
+        <div class="col">
+          <div class="input-group">
+            <label class="input-group-text" for="start">с</label>
+            <input
+              type="date"
+              name="range_start"
+              id="start"
+              class="form-control"
+            />
+            <label class="input-group-text" for="end">по</label>
+            <input type="date" name="range_end" id="end" class="form-control" />
+          </div>
+        </div>
+      </div>
+    </div>
     <div class="form-check m-2">
       <input
         type="checkbox"
@@ -73,9 +93,14 @@
       <label for="agreement" class="form-check-label"
         >Я даю согласие на обработку персональных данных</label
       >
-      <div class="mt-3 d-flex align-items-center justify-content-center flex-column">
-        <button class="btn text-white" style="background: #50b848; font-size: larger;">
-          Далее
+      <div
+        class="mt-3 d-flex align-items-center justify-content-center flex-column"
+      >
+        <button
+          class="btn text-white"
+          style="background: #50b848; font-size: larger"
+        >
+          Отправить
         </button>
       </div>
     </div>

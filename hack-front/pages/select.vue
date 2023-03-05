@@ -9,7 +9,7 @@
       </div>
     </div>
 
-    <div class="row mt-4 p-5">
+    <div class="row my-2">
       <div class="col">
         <div class="card" @click="goto('/detail')">
           <img src="/img/frontend.png" alt="" class="card-img-top" />
@@ -29,6 +29,46 @@
           <div class="card" @click="goto('/detail')">
             <img src="/img/sysadmin.png" alt="" class="card-img-top" />
             <div class="card-body text-center">Системный администратор</div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="col">
+          <div class="card" @click="goto('/detail')">
+            <img src="/img/sysadmin.png" alt="" class="card-img-top" />
+            <div class="card-body text-center">Разработчик баз данных</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row my-2">
+      <div class="col">
+        <div class="card" @click="goto('/detail')">
+          <img src="/img/frontend.png" alt="" class="card-img-top" />
+          <div class="card-body text-center">Разработчик Java/Kotlin</div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="col">
+          <div class="card" @click="goto('/detail')">
+            <img src="/img/analytic.png" alt="" class="card-img-top" />
+            <div class="card-body text-center">Разработчик под мобильные платформы</div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="col">
+          <div class="card" @click="goto('/detail')">
+            <img src="/img/sysadmin.png" alt="" class="card-img-top" />
+            <div class="card-body text-center">Разработчик PHP</div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="col">
+          <div class="card" @click="goto('/detail')">
+            <img src="/img/sysadmin.png" alt="" class="card-img-top" />
+            <div class="card-body text-center">Системный аналитик</div>
           </div>
         </div>
       </div>

@@ -24,6 +24,10 @@
               Выбрать стажировку
             </button>
           </div>
+          <p class="text-center h5 mt-3">
+            Хотите получать актуальную информацию о стажировках? Подписывайтесь на наш Telegram канал 
+          </p>
+          <a href="https://t.me/+avEp1rXmbjI0Njgy" class="mt-3 h4"><i class="bi bi-telegram"></i> Наш Telegram</a>
         </div>
       </div>
     </div>
